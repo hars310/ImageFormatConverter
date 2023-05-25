@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Format Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Format Converter</h1>
+
+        <div class="imgbox">
+            <img src="jpg_png.png" alt="" >
+        </div>
+    </header>
+  <main>
+    
+  <input type="file" id="imageInput" onchange="previewImage(event)">
+  
+  <div id="imagePreview">
+  </div>
+  <button onclick="convertToPNG()">Convert to PNG</button>
+  <button onclick="convertToJPG()">Convert to JPG</button>
+  <a id="downloadLink" download></a>
+</main>
+
+<footer>
+    <div class="social-links">
+        <a href="https://www.instagram.com/hars__05" target="_blank" >
+            <img width="40px"; height="40px"; src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png">
+          
+        </a>
+        <a href="https://www.linkedin.com/in/harsh-kumar-b5a970217?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKNAPLdLSQNK47qSFDerOLg%3D%3D" target="_blank">
+          <img width="50px"; height="50px"; src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" >
+        </a>
+        <a href="https://github.com/har-sh310" target="_blank">
+            <img width="35px"; height="35px";  src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" >
+        </a>
+      </div>
+  <p>Created by Harsh Kumar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
